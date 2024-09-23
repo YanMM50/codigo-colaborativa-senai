@@ -12,3 +12,5 @@ print(f"Número sorteado: {numero}")
 
 if numero == 5:
     print("Ola!")
+else:
+    print("Azarada")
