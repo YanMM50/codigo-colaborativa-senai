@@ -3,12 +3,14 @@ import time
 
 os.system("cls || clear")
 
-opcao = int(input("2 reais ou um presente misterioso?: "))
+opcao = int(input("Digite (1 para 2 reais) ou (2 para um presente misterioso): "))
 
 match(opcao):
     case 1:
-        print("2 reais")
+        print("\nVocê quer 2 reais?")
         time.sleep(0.5)
-        print("Pobre miserável")
+        print("\nPobre miserável...")
     case 2: 
-        print("Um presente misterioso")
+        print("\nVocê quer um presente misterioso?")
+        time.sleep(0.8)
+        print("\nVai ficar sem nada :)")
